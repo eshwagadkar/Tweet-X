@@ -9,6 +9,7 @@
   "dependencies": {
     "husky": "^8.0.1",
     "lint-staged": "^12.5.0",
+    "node-sass": "^7.0.1",
     "normalize-scss": "^7.0.1",
     "prettier": "^2.6.2",
     "stylelint": "^14.8.5",
@@ -18,7 +19,8 @@
   },
   "scripts": {
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "build": "node src/scripts/build.js"
   },
   "husky": {
     "hooks": {
