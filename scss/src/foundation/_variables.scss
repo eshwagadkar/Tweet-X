@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto:wght@300;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto:wght@300;500;700;900&display=swap");
 /*=============================================
 =                 VARIABLES                   =
 =============================================*/
-
 
 /**
 
@@ -44,35 +43,28 @@
 
 */
 
-
-
 /*=============================================
 =                     COLORS                  =
 =============================================*/
 
-
 /* Brand Colors */
-$dark-peach: #F47C7C;
-$peach: #EF9F9F;
-$light-peach: #EF9F9F;
-$lighter-peach: #FFF2F2;
-
+$dark-peach: #f47c7c;
+$peach: #ef9f9f;
+$light-peach: #ef9f9f;
+$lighter-peach: #fff2f2;
 
 /* Neutral Colors */
 $dark-grey: #495464;
-$grey: #BBBFCA;
-$light-grey: #E8E8E8;
-$lighter-grey: #F4F4F2;
-$white: #ffffff;
+$grey: #bbbfca;
+$light-grey: #e8e8e8;
+$lighter-grey: #f4f4f2;
+$white: #fff;
 
 /*=====  End of Colors  ======*/
-
-
 
 /*=============================================
 =                  TYPOGRAPHY                 =
 =============================================*/
-
 
 /**
  *
@@ -87,7 +79,6 @@ $white: #ffffff;
 /* Font Families */
 $roboto: "Roboto", serif; /* 1 */
 $montserrat: "Montserrat", sans-serif, serif; /* 2 */
-
 
 /* Font sizes */
 $fs-xs: 0.75rem; // 12px
@@ -104,7 +95,6 @@ $h-4: 1.125rem; // 18px
 $h-5: 0.75rem; // 12px
 $h-6: 0.75rem; // 12px
 
-
 /* Font weights */
 $fw-light: 300;
 $fw-normal: 400;
@@ -114,44 +104,47 @@ $fw-bold: 700;
 $fw-extrabold: 800;
 $fw-black: 900;
 
-
 /*=====  End of Typography  ======*/
-
-
 
 /*=============================================
 =            Spacing            =
 =============================================*/
 
-$spacing : (
-  xxxs: 0.25rem, // 4px
-  xxs: 0.5rem, // 8px
-  xs: 0.75rem, // 12px
-  sm: 1rem, // 16px
-  md: 1.5rem, // 24px
-  lg: 2rem, // 32px
-  xl: 3rem, // 48px
-  xxl: 4.5rem, // 72px
-  xxxl: 6rem, // 96px
+$spacing: (
+  xxxs: 0.25rem,
+  // 4px
+  xxs: 0.5rem,
+  // 8px
+  xs: 0.75rem,
+  // 12px
+  sm: 1rem,
+  // 16px
+  md: 1.5rem,
+  // 24px
+  lg: 2rem,
+  // 32px
+  xl: 3rem,
+  // 48px
+  xxl: 4.5rem,
+  // 72px
+  xxxl: 6rem,
+  // 96px
 ) !default;
 
-
 /*=====  End of Spacing  ======*/
-
-
-
-
 
 /*=============================================
 =                  Breakpoints                =
 =============================================*/
 
 $breakpoints: (
+  md: 48rem,
+  // 768px
+  lg: 64rem,
+  // 1024px
+  xl: 80rem,
 
-  md: 48rem, // 768px
-  lg: 64rem, // 1024px
-  xl: 80rem, // 1280px
-
+  // 1280px
 );
 
 /*=====  End of Breakpoints  ======*/
