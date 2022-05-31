@@ -15,14 +15,14 @@
 /*=============================================
  =                 Foundations                 =
  =============================================*/
-@import "./foundation/all";
+@import "src/foundation/all";
 
 /*=============================================
  =                   Base                      =
  =============================================*/
 
 // css reset
-@import "./base/reset";
+@import "src/base/reset";
 
 // root definition
-@import "./base/root";
+@import "src/base/root";
