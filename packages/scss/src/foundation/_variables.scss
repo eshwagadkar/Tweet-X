@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto:wght@300;500;700;900&display=swap");
+/*=============================================
+=                 VARIABLES                   =
+=============================================*/
+
+/**
+
+* TABLE OF CONTENTS 
+
+*
+
+* COLORS
+
+* Brand Colors.................. These are the main brand colors. They will be used the most
+
+* Neutral Colors................ White and black, grayscale, secondary colors
+
+* Utility Colors................ Other colors to represent states: info, warning, success, etc.
+
+*
+
+* TYPOGRAPHY 
+
+* Font families.................. The fonts used in the design system. 
+
+* Font weights................... Font weights 
+
+* Sizes.......................... Font sizing for body text, paragraphs, inputs
+
+* Heading sizes.................. Font sizing for page headings 
+
+
+*
+
+* Spacing ......................... Global fixed set of spacing variables
+
+*
+
+
+* BREAKPOINTS 
+
+* Breakponts.....................Global responsive breakpoints definitions. 
+
+*/
+
+/*=============================================
+=                     COLORS                  =
+=============================================*/
+
+/* Brand Colors */
+$dark-peach: #f47c7c;
+$peach: #ef9f9f;
+$light-peach: #ef9f9f;
+$lighter-peach: #fff2f2;
+
+/* Neutral Colors */
+$dark-grey: #495464;
+$grey: #bbbfca;
+$light-grey: #e8e8e8;
+$lighter-grey: #f4f4f2;
+$white: #fff;
+
+/*=====  End of Colors  ======*/
+
+/*=============================================
+=                  TYPOGRAPHY                 =
+=============================================*/
+
+/**
+ *
+ * 1) The Roboto font. This will be used for headings and body text aswell. 
+ *    https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900;
+ *  
+ *
+ * 2) The Montserrat font. An alternate font other than roboto ( if needed )
+ *    https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;
+ */
+
+/* Font Families */
+$roboto: "Roboto", serif; /* 1 */
+$montserrat: "Montserrat", sans-serif, serif; /* 2 */
+
+/* Font sizes */
+$fs-xs: 0.75rem; // 12px
+$fs-sm: 0.875rem; // 14px
+$fs-base: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.5rem; // 24px
+
+/* Heading font sizes */
+$h-1: 1.375rem; // 22px
+$h-2: 1.375rem; // 22px
+$h-3: 1rem; // 16px
+$h-4: 1.125rem; // 18px
+$h-5: 0.75rem; // 12px
+$h-6: 0.75rem; // 12px
+
+/* Font weights */
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/*=====  End of Typography  ======*/
+
+/*=============================================
+=            Spacing            =
+=============================================*/
+
+$spacing: (
+  xxxs: 0.25rem,
+  // 4px
+  xxs: 0.5rem,
+  // 8px
+  xs: 0.75rem,
+  // 12px
+  sm: 1rem,
+  // 16px
+  md: 1.5rem,
+  // 24px
+  lg: 2rem,
+  // 32px
+  xl: 3rem,
+  // 48px
+  xxl: 4.5rem,
+  // 72px
+  xxxl: 6rem,
+  // 96px
+) !default;
+
+/*=====  End of Spacing  ======*/
+
+/*=============================================
+=                  Breakpoints                =
+=============================================*/
+
+$breakpoints: (
+  md: 48rem,
+  // 768px
+  lg: 64rem,
+  // 1024px
+  xl: 80rem,
+
+  // 1280px
+);
+
+/*=====  End of Breakpoints  ======*/
