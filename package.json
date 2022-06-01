@@ -1,0 +1,33 @@
+{
+  "name": "@ds.e/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshwagadkar/Tweet-X.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eshwagadkar/Tweet-X/issues"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss",
+      "**/stylelint-config-sass-guidelines",
+      "**/stylelint-prettier"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
+  },
+  "dependencies": {
+    "lerna": "^5.0.0"
+  }
+}
