@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Roboto:wght@300;500;700;900&display=swap");
+/*=============================================
+=                 VARIABLES                   =
+=============================================*/
+/**
+
+* TABLE OF CONTENTS 
+
+*
+
+* COLORS
+
+* Brand Colors.................. These are the main brand colors. They will be used the most
+
+* Neutral Colors................ White and black, grayscale, secondary colors
+
+* Utility Colors................ Other colors to represent states: info, warning, success, etc.
+
+*
+
+* TYPOGRAPHY 
+
+* Font families.................. The fonts used in the design system. 
+
+* Font weights................... Font weights 
+
+* Sizes.......................... Font sizing for body text, paragraphs, inputs
+
+* Heading sizes.................. Font sizing for page headings 
+
+
+*
+
+* Spacing ......................... Global fixed set of spacing variables
+
+*
+
+
+* BREAKPOINTS 
+
+* Breakponts.....................Global responsive breakpoints definitions. 
+
+*/
+/*=============================================
+=                     COLORS                  =
+=============================================*/
+/* Brand Colors */
+/* Neutral Colors */
+/*=====  End of Colors  ======*/
+/*=============================================
+=                  TYPOGRAPHY                 =
+=============================================*/
+/**
+ *
+ * 1) The Roboto font. This will be used for headings and body text aswell. 
+ *    https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900;
+ *  
+ *
+ * 2) The Montserrat font. An alternate font other than roboto ( if needed )
+ *    https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;
+ */
+/* Font Families */
+/* 1 */
+/* 2 */
+/* Font sizes */
+/* Heading font sizes */
+/* Font weights */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Spacing            =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=                  Breakpoints                =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+
+=             Foundation - colors             =
+
+=============================================*/
+/**
+ *
+ * This file defines the actual colors that will be used for styling. They will default to the palette we defined in the _variable.scss file.
+ *
+ * This is our default palette, and devs can override this with their own variables. 
+ *
+ */
+/*=============================================
+
+ =             Global Text Colors              =
+
+ ==============================================*/
+/*=============================================
+
+=                    Buttons                  =
+
+=============================================*/
+/*=============================================
+
+=                    Forms                    =
+
+=============================================*/
+/*=============================================
+=            Foundation - Typography          =
+==============================================*/
+/**
+ *
+ * This file defines the default font sizes to be used on headings from the palette defined in _variables.scss
+ *
+ */
+/*=============================================
+=             Heading font family             =
+=============================================*/
+/*=============================================
+=               Body font family              =
+=============================================*/
+/*=============================================
+ =               Body font sizes               =
+ =============================================*/
+/*=============================================
+ =              Heading font sizes             =
+ =============================================*/
+/*=============================================
+ =              Heading font weights           =
+ =============================================*/
+/*=============================================
+=                    Mixins                   =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement styles for components
+ *
+ */
+.dse-container {
+  display: flex;
+}
