@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/App.js",
+  entry: "./src/index.js",
   module: {
     rules: [
       {
@@ -12,12 +12,13 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: ["css-loader"],
+        exclude: /node_modules/,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
   resolve: {
-    extensions: ["*", ".js"],
+    extensions: ["*", ".js", ".css"],
   },
   output: {
     path: path.join(__dirname, "public"),
