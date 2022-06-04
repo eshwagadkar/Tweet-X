@@ -1,4 +1,14 @@
 // This file will contain our JSX
-let template = <p>THis is from App.js!</p>;
-let appRoot = document.getElementById("app");
-ReactDOM.render(template, appRoot);
+import React from "react";
+// Compiled CSS code
+import "@ds.e/scss/lib/Button.css";
+
+const App = () => {
+  return (
+    <div>
+      <p>This is App.js file</p>
+    </div>
+  );
+};
+
+export default App;
